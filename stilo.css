@@ -1,0 +1,44 @@
+:root {
+    --background-image: url("pexels-elijahsad-3473569.jpg");
+}
+
+body {
+    background-image: var(--background-image);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0; 
+}
+img {
+    display: flex;
+    padding: 25px;
+    justify-content: left;
+    height: 500px;
+    width: 500px;
+    border-radius: 60px;
+}
+.overlay {
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 15px; 
+    padding: 20px; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); 
+    text-align: left; 
+}
+
+.text-container h1 {
+    margin: 0; 
+}
+
+.text-container p {
+    margin: 5px 0 0; 
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
